@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "instance_count": 2,
+  "components": {
+    "p": { "alphabet": "0123456789ABCDEF", "length": { "mode": "fixed", "value": 6 }, "signed_mapping": "zigzag" },
+    "q": { "alphabet": "0123456789ABCDEF", "length": { "mode": "fixed", "value": 6 }, "positive_mapping": "id_plus_one" },
+    "m": { "alphabet": "0123456789ABCDEF", "length": { "mode": "fixed", "value": 6 }, "signed_mapping": "zigzag" },
+    "g": { "alphabet": "0123456789ABCDEF", "length": { "mode": "fixed", "value": 6 }, "positive_mapping": "id_plus_one" },
+    "alpha": { "alphabet": "0123456789ABCDEF", "length": { "mode": "fixed", "value": 6 }, "signed_mapping": "zigzag" },
+    "beta": { "alphabet": "0123456789ABCDEF", "length": { "mode": "fixed", "value": 6 }, "positive_mapping": "id_plus_one" }
+  },
+  "instances": [
+    {
+      "p": "C1B000",
+      "q": "C1BDB2",
+      "m": "C1BDB2",
+      "g": "C0BCB1",
+      "alpha": "C1BDB2",
+      "beta": "C1BDB2"
+    }
+  ],
+  "seed": {
+    "output_length": 6,
+    "seed_file": "19.txt",
+    "basis_output_path": "20.txt",
+    "mode": "strict",
+    "basis_policy": "ordered_with_repetition",
+    "emit_generated_seed": true
+  },
+  "output": {
+    "format": "json",
+    "path": "basis_tensors.json"
+  }
+}

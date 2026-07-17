@@ -1,0 +1,11 @@
+event "Arbitrary precision sum" : add(999999999999999999999999999999, 1)
+event "Negative direction" : apply_directional_polarity($1, "negative")
+event "Space-time container" : containerize("alpha beta")
+event "Transformed container" : transform_container($3, "uppercase")
+event "Recovered payload" : decontainerize($4)
+event "Semantic assertion" : semantic_triple("recovered payload", "equals", $5)
+event "Shortlex ordinal" : sequential_encode("abba", "ab") alphabet "0123456789"
+event "Shortlex reverse" : sequential_decode($7, "ab") alphabet "ab"
+event "Exact reverse proof" : sequential_verify($8, "ab")
+event "Constructive choice" : select(equal($8, "abba"), "valid", "invalid")
+

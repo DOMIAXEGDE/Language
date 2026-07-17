@@ -1,0 +1,14 @@
+/build/
+/tmp/
+/gpil-out/
+/omicron/doc/
+**/.git/
+**/__pycache__/
+*.py[cod]
+*.obj
+*.o
+*.pdb
+*.ilk
+*.log
+.DS_Store
+Thumbs.db
