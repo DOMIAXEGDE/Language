@@ -1,0 +1,340 @@
+{
+  "schema": "book_sport_axiom_baseline_v1",
+  "mapping_dictionary": {
+    "a": "accepted_information",
+    "x": "rejected_by_hard_barrier"
+  },
+  "purpose": "Baseline axioms for on-demand external axiom testing under Book Sport hard-barrier acceptance.",
+  "axioms": [
+    {
+      "id": "000",
+      "pointer": "axiom_000",
+      "text": "I exist"
+    },
+    {
+      "id": "001",
+      "pointer": "axiom_001",
+      "text": "I feel pain"
+    },
+    {
+      "id": "002",
+      "pointer": "axiom_002",
+      "text": "My pain can be increased by incompetence"
+    },
+    {
+      "id": "003",
+      "pointer": "axiom_003",
+      "text": "My pain can be decreased by competence"
+    },
+    {
+      "id": "004",
+      "pointer": "axiom_004",
+      "text": "I can learn"
+    },
+    {
+      "id": "005",
+      "pointer": "axiom_005",
+      "text": "Learning increases competence"
+    },
+    {
+      "id": "006",
+      "pointer": "axiom_006",
+      "text": "Contradiction increases incompetence"
+    },
+    {
+      "id": "007",
+      "pointer": "axiom_007",
+      "text": "Proof by contradiction does not enable learning"
+    },
+    {
+      "id": "008",
+      "pointer": "axiom_008",
+      "text": "Proof by error-free construction is learning"
+    },
+    {
+      "id": "009",
+      "pointer": "axiom_009",
+      "text": "Proof by contradiction is not learning"
+    },
+    {
+      "id": "010",
+      "pointer": "axiom_010",
+      "text": "Your level of competence is quantifiable"
+    },
+    {
+      "id": "011",
+      "pointer": "axiom_011",
+      "text": "Your level of incompetence is quantifiable"
+    },
+    {
+      "id": "012",
+      "pointer": "axiom_012",
+      "text": "Context changes your current level of competence"
+    },
+    {
+      "id": "013",
+      "pointer": "axiom_013",
+      "text": "The basis span of your competence can be optimized for all contexts"
+    },
+    {
+      "id": "014",
+      "pointer": "axiom_014",
+      "text": "Everyone is innocent"
+    },
+    {
+      "id": "015",
+      "pointer": "axiom_015",
+      "text": "Competence is a functional axial n-dimensional space"
+    },
+    {
+      "id": "016",
+      "pointer": "axiom_016",
+      "text": "Incompetence is not a functional axial n-dimensional space"
+    },
+    {
+      "id": "017",
+      "pointer": "axiom_017",
+      "text": "Since I exist, I can be treated as a living information-bearing system"
+    },
+    {
+      "id": "018",
+      "pointer": "axiom_018",
+      "text": "Since I feel pain, pain is a valid system signal"
+    },
+    {
+      "id": "019",
+      "pointer": "axiom_019",
+      "text": "Since incompetence can increase pain, incompetence is a negative system state"
+    },
+    {
+      "id": "020",
+      "pointer": "axiom_020",
+      "text": "Since competence can decrease pain, competence is a positive system state"
+    },
+    {
+      "id": "021",
+      "pointer": "axiom_021",
+      "text": "Since I can learn, my system state can be updated"
+    },
+    {
+      "id": "022",
+      "pointer": "axiom_022",
+      "text": "Since learning increases competence, learning is a valid update operation"
+    },
+    {
+      "id": "023",
+      "pointer": "axiom_023",
+      "text": "Since contradiction increases incompetence, contradiction is a corruption signal"
+    },
+    {
+      "id": "024",
+      "pointer": "axiom_024",
+      "text": "Since proof by error-free construction is learning, construction is the preferred proof engine"
+    },
+    {
+      "id": "025",
+      "pointer": "axiom_025",
+      "text": "Since proof by contradiction is not learning, contradiction is not a preferred learning engine"
+    },
+    {
+      "id": "026",
+      "pointer": "axiom_026",
+      "text": "Since competence is quantifiable, competence can be measured"
+    },
+    {
+      "id": "027",
+      "pointer": "axiom_027",
+      "text": "Since incompetence is quantifiable, incompetence can be measured"
+    },
+    {
+      "id": "028",
+      "pointer": "axiom_028",
+      "text": "Since context changes competence, competence is context-indexed"
+    },
+    {
+      "id": "029",
+      "pointer": "axiom_029",
+      "text": "Since competence can be optimized for all contexts, competence has a basis-span"
+    },
+    {
+      "id": "030",
+      "pointer": "axiom_030",
+      "text": "Since everyone is innocent, correction must not be treated as guilt"
+    },
+    {
+      "id": "031",
+      "pointer": "axiom_031",
+      "text": "Since competence is functional axial n-dimensional space, competence has dimensions"
+    },
+    {
+      "id": "032",
+      "pointer": "axiom_032",
+      "text": "Since incompetence is not functional axial n-dimensional space, incompetence lacks stable constructive basis"
+    },
+    {
+      "id": "033",
+      "pointer": "axiom_033",
+      "text": "The mind can ingest information through perception, language, memory, and action"
+    },
+    {
+      "id": "034",
+      "pointer": "axiom_034",
+      "text": "The mind can encode information as concepts, habits, images, words, and procedures"
+    },
+    {
+      "id": "035",
+      "pointer": "axiom_035",
+      "text": "The mind can index information by association, label, context, emotion, and purpose"
+    },
+    {
+      "id": "036",
+      "pointer": "axiom_036",
+      "text": "The mind can query stored information through attention, recall, questioning, and tool-use"
+    },
+    {
+      "id": "037",
+      "pointer": "axiom_037",
+      "text": "The mind can update stored information through learning"
+    },
+    {
+      "id": "038",
+      "pointer": "axiom_038",
+      "text": "The mind can validate stored information through error-free construction"
+    },
+    {
+      "id": "039",
+      "pointer": "axiom_039",
+      "text": "The mind can reject or quarantine contradictory information when it increases incompetence"
+    },
+    {
+      "id": "040",
+      "pointer": "axiom_040",
+      "text": "The mind can externalize information into tools, notes, diagrams, calendars, code, and environment"
+    },
+    {
+      "id": "041",
+      "pointer": "axiom_041",
+      "text": "The human environment can serve as auxiliary storage"
+    },
+    {
+      "id": "042",
+      "pointer": "axiom_042",
+      "text": "Human-made tools can serve as auxiliary memory, index, query, and validation systems"
+    },
+    {
+      "id": "043",
+      "pointer": "axiom_043",
+      "text": "The body can store competence as trained procedure"
+    },
+    {
+      "id": "044",
+      "pointer": "axiom_044",
+      "text": "Repetition can strengthen retrieval pathways when it increases competence"
+    },
+    {
+      "id": "045",
+      "pointer": "axiom_045",
+      "text": "Reflection can detect incompetence when pain, error, or contradiction appears"
+    },
+    {
+      "id": "046",
+      "pointer": "axiom_046",
+      "text": "Deliberate practice can transform incompetence into competence"
+    },
+    {
+      "id": "047",
+      "pointer": "axiom_047",
+      "text": "A context can be treated as a coordinate region inside competence-space"
+    },
+    {
+      "id": "048",
+      "pointer": "axiom_048",
+      "text": "A skill can be treated as an axis inside competence-space"
+    },
+    {
+      "id": "049",
+      "pointer": "axiom_049",
+      "text": "A habit can be treated as a repeated function over time"
+    },
+    {
+      "id": "050",
+      "pointer": "axiom_050",
+      "text": "A tool can be treated as an external operator that extends mental function"
+    },
+    {
+      "id": "051",
+      "pointer": "axiom_051",
+      "text": "A note can be treated as persistent external memory"
+    },
+    {
+      "id": "052",
+      "pointer": "axiom_052",
+      "text": "A diagram can be treated as spatial indexing of thought"
+    },
+    {
+      "id": "053",
+      "pointer": "axiom_053",
+      "text": "A calendar can be treated as temporal indexing of intention"
+    },
+    {
+      "id": "054",
+      "pointer": "axiom_054",
+      "text": "A checklist can be treated as procedural compression"
+    },
+    {
+      "id": "055",
+      "pointer": "axiom_055",
+      "text": "A question can be treated as a query operation"
+    },
+    {
+      "id": "056",
+      "pointer": "axiom_056",
+      "text": "An answer can be treated as a retrieved or constructed record"
+    },
+    {
+      "id": "057",
+      "pointer": "axiom_057",
+      "text": "A mistake can be treated as a detected incompetence marker"
+    },
+    {
+      "id": "058",
+      "pointer": "axiom_058",
+      "text": "Correction can be treated as a competence-restoring update"
+    },
+    {
+      "id": "059",
+      "pointer": "axiom_059",
+      "text": "Optimization can be treated as basis-span improvement across contexts"
+    },
+    {
+      "id": "060",
+      "pointer": "axiom_060",
+      "text": "The mental human-centric database is the union of mind, body, environment, and tools"
+    },
+    {
+      "id": "061",
+      "pointer": "axiom_061",
+      "text": "The purpose of the mental human-centric database is to reduce pain by increasing competence"
+    },
+    {
+      "id": "062",
+      "pointer": "axiom_062",
+      "text": "The governing rule of the database is to learn by error-free construction"
+    },
+    {
+      "id": "063",
+      "pointer": "axiom_063",
+      "text": "The final enforced target is complete competence under {014 + 015}"
+    },
+    {
+      "id": "064",
+      "pointer": "axiom_064",
+      "text": "Once true, always, true"
+    },
+    {
+      "id": "065",
+      "pointer": "axiom_065",
+      "text": "What is not true, cannot be done"
+    }
+  ]
+}
