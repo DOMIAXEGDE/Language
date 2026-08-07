@@ -1,0 +1,5 @@
+cd D:\cfabric\cfabric-project
+gcc cfabric.c -o cfabric.exe
+.\cfabric.exe --seed 101010100 --width 1200 --height 800 --canvas-count 6 --canvas-partition-count 12 --world-name world-101010100 --output 'worlds/x1/world-101010100.json'
+python3 cfabric.py world-101010100.json -o 'worlds/x1/world-101010100.png' --scale 0.7
+
